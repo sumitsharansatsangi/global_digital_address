@@ -1,10 +1,10 @@
-package gda_test
+package global_digital_address_test
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/sumitsharansatsangi/global_digital_address/packages/go/gda"
+	gda "github.com/sumitsharansatsangi/global_digital_address/packages/go"
 )
 
 func ExampleGetDigiPin() {

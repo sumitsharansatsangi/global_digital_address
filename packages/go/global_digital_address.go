@@ -1,11 +1,12 @@
-// Package gda
-// Square-cell Web Mercator encoder/decoder for globally unique grid codes.
+// Package global_digital_address 
+// provides a square-cell Web Mercator encoder/decoder for globally
+// unique grid codes.
 // API:
 //   - GetDigiPin(lat, lon, levels...?)
 //   - GetLatLngFromDigiPin(code)
 //   - ApproxCellSizeMeters(levels)
 //   - constants/vars: DIGIPIN_GRID, MAX_LAT
-package gda
+package global_digital_address
 
 import (
 	"errors"
