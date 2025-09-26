@@ -1,0 +1,51 @@
+{
+    "name": "global_digital_address",
+    "version": "1.0.0",
+    "description": "Square-cell Web Mercator global digital address encoder/decoder",
+    "keywords": [
+        "geospatial",
+        "geohash",
+        "address",
+        "grid",
+        "mercator",
+        "digipin",
+        "what3words",
+        "pluscode"
+    ],
+    "license": "MIT",
+    "author": "Sumit Kumar",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sumitsharansatsangi/global_digital_address.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sumitsharansatsangi/global_digital_address/issues"
+    },
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "build": "tsc && esbuild src/index.ts --bundle --format=esm --outfile=dist/index.js --platform=neutral --target=es2019 && esbuild src/index.ts --bundle --format=cjs --outfile=dist/index.cjs --platform=node --target=node16",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "dev": "vitest",
+        "prepublishOnly": "npm run build && npm run test"
+    },
+    "devDependencies": {
+        "esbuild": "^0.23.0",
+        "typescript": "^5.6.2",
+        "vitest": "^2.1.9"
+    }
+}
