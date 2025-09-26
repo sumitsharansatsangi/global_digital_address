@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["DIGIPIN_GRID","MAX_LAT"],"enum":["Error"],"fn":["approx_cell_size_meters","get_digi_pin","get_lat_lng_from_digipin"],"struct":["LatLng"]};

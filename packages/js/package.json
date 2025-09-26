@@ -1,6 +1,6 @@
 {
     "name": "global_digital_address",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Square-cell Web Mercator global digital address encoder/decoder",
     "keywords": [
         "geospatial",

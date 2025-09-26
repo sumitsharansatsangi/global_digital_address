@@ -1,0 +1,43 @@
+[build-system]
+# Pin to a compatible uv_build range per uv’s recommendation
+requires = ["uv_build>=0.8.22,<0.9.0"]
+build-backend = "uv_build"
+
+[project]
+name = "global-digital-address"
+version = "1.0.0"
+description = "Square-cell Web Mercator encoder/decoder for globally unique grid codes"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Sumit Kumar" }
+]
+keywords = ["geospatial", "geohash", "address", "grid", "mercator", "digitalpin"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Typing :: Typed",
+  "Topic :: Scientific/Engineering :: GIS :: Digital Address",
+]
+
+[project.urls]
+Homepage = "https://github.com/sumitsharansatsangi/global-digital-address"
+Issues = "https://github.com/sumitsharansatsangi/global-digital-address/issues"
+
+[project.scripts]
+gda = "global_digital_address.cli:main"
+
+# Optional: uv build-backend tweaks (defaults shown explicitly)
+[tool.uv.build-backend]
+# uv normalizes project.name -> module name (dashes to underscores), and defaults to src/ layout.
+# These two lines are optional for your layout, but included for clarity:
+module-name = "global_digital_address"
+module-root = "src"
+
+# If you need to include extra data outside the package dir, you can add:
+# data = ["assets", "schemas"]
+# source-include = ["README.md", "LICENSE"]
+# source-exclude = ["/dist", "/build"]
+# wheel-exclude = ["**/*.pyc", "__pycache__"]

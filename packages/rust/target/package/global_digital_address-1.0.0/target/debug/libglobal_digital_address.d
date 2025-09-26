@@ -1,0 +1,1 @@
+/Users/amitsharan/mypackages/global_digital_address/packages/rust/global_digital_address/target/package/global_digital_address-1.0.0/target/debug/libglobal_digital_address.rlib: /Users/amitsharan/mypackages/global_digital_address/packages/rust/global_digital_address/target/package/global_digital_address-1.0.0/src/lib.rs

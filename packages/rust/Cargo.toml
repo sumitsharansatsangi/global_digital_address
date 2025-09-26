@@ -1,0 +1,26 @@
+[package]
+name = "global_digital_address"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+authors = ["Sumit Kumar <sharansumitkumar@gmail.com>"]
+description = "Square-cell Web Mercator encoder/decoder for globally unique grid codes"
+repository = "https://github.com/sumitsharansatsangi/global_digital_address"
+homepage = "https://github.com/sumitsharansatsangi/global_digital_address"
+documentation = "https://docs.rs/global_digital_address"
+readme = "README.md"
+keywords = ["geospatial", "geohash", "mercator", "address", "grid"]
+categories = ["science", "algorithms", "encoding"]
+
+[lib]
+name = "global_digital_address"
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "2.0"
+
+[dev-dependencies]
+# none for now
+
+[badges]
+maintenance = { status = "actively-developed" }

@@ -1,0 +1,22 @@
+name: global_digital_address
+description: Square-cell Web Mercator encoder/decoder for globally unique grid codes
+  (“DigiPin”) with lossless roundtrip helpers and approximate cell sizing.
+version: 1.0.0
+repository: https://github.com/sumitsharansatsangi/global_digital_address
+homepage: https://github.com/sumitsharansatsangi/global_digital_address
+issue_tracker: https://github.com/sumitsharansatsangi/global_digital_address/issues
+topics:
+  - geospatial
+  - geohash
+  - mercator
+  - gis
+  - digital-address
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  # No runtime deps
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.3
