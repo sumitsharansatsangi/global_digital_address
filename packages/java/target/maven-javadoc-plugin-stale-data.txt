@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+24
+-sourcepath
+'/Users/amitsharan/mypackages/global_digital_address/packages/java/src/main/java:/Users/amitsharan/mypackages/global_digital_address/packages/java/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'global-digital-address 1.0.0 API'
+-use
+-version
+-windowtitle
+'global-digital-address 1.0.0 API'
+io.github.sumitsharansatsangi
+/Users/amitsharan/mypackages/global_digital_address/packages/java/src/main/java = 1758949489349
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/generated-sources/annotations = 1758958793085
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/constant-values.html = 1758958817393
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/tag-search-index.js = 1758958817404
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/overview-tree.html = 1758958817399
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/module-search-index.js = 1758958817403
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/index.html = 1758958817407
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/package-search-index.js = 1758958817403
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/index-all.html = 1758958817406
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/allpackages-index.html = 1758958817403
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/member-search-index.js = 1758958817403
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/help-doc.html = 1758958817409
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/element-list = 1758958817386
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/search.html = 1758958817407
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/allclasses-index.html = 1758958817402
+/Users/amitsharan/mypackages/global_digital_address/packages/java/target/apidocs/type-search-index.js = 1758958817403

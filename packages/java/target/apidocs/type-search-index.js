@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.github.sumitsharansatsangi","l":"GlobalDigitalAddress"},{"p":"io.github.sumitsharansatsangi","l":"LatLng"}];updateSearchResults();
